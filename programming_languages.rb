@@ -9,6 +9,5 @@ def reformat_languages(languages)
       new_hash[language] = {:type => info[:type]}, {:style => programming}
   end
 end
-binding.pry
 new_hash
 end
