@@ -7,7 +7,7 @@ def reformat_languages(languages)
       if language.keys.include?(:oo)
 
     binding.pry
-  end
+      end
     end
   end
 end
