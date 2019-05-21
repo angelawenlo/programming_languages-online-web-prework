@@ -3,7 +3,7 @@ def reformat_languages(languages)
   # your code her
   new_hash = {}
   new_hash = languages.values
-  languages.each do |programming, data|
+  languages.values each do |programming, data|
     data.each do |language, type_info|
       if programming == :functional
         new_hash[:style] = [:functional]
