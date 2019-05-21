@@ -7,8 +7,9 @@ def reformat_languages(languages)
     #programming = functional and oo
     data.each do |language, info|
       new_hash[language] = {:type => info[:type], :style => [programming]}
-      binding.pry
+
   end
+  binding.pry
 end
 new_hash
 end
