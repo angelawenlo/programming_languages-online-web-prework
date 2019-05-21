@@ -8,6 +8,7 @@ def reformat_languages(languages)
     data.each do |language, info|
       new_hash[language] = {:type => info[:type]}, {:style => [programming]}
   end
+  binding.pry
 end
 new_hash
 end
