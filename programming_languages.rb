@@ -5,11 +5,11 @@ def reformat_languages(languages)
   new_hash = languages.values
   languages.values.each do |programming, data|
     data.each do |language, type_info|
-      if programming == :functional
-        new_hash[:style] = [:functional]
-      elsif programming == :oo
-        new_hash[:style]= [:oo]
-        new_hash
+    #  if programming == :functional
+    #    new_hash[:style] = [:functional]
+    #  elsif programming == :oo
+    #    new_hash[:style]= [:oo]
+    #    new_hash
     binding.pry
         end
       end
