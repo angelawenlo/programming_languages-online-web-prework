@@ -7,7 +7,7 @@ def reformat_languages(languages)
     new_hash = data
     data.each do |language, info|
     if programming == :oo
-      new_hash = languages[:ruby] = {style: "oo"}
+    
 
     elsif programming == :functional
       binding.pry
