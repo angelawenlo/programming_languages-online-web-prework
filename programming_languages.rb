@@ -6,6 +6,7 @@ def reformat_languages(languages)
     data.each do |language, type_info|
       if programming == :functional
       elsif programming == :oo
+        binding.pry
         end
       end
     end
