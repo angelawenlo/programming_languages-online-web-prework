@@ -6,7 +6,7 @@ def reformat_languages(languages)
   languages.each do |programming, data|
     #programming = functional and oo
     data.each do |language, info|
-      new_hash[language.merge] = {:type => info[:type]}, {:style => [programming]}
+      new_hash[language] = {:type => info[:type]}, {:style => [programming]}
   end
   binding.pry
 end
