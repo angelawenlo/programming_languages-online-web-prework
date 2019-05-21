@@ -17,7 +17,6 @@ def reformat_languages(languages)
           :type => info[:type],
           :style => [programming]
         }
-
   end
 end
 new_hash
