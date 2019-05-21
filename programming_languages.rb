@@ -7,5 +7,6 @@ def reformat_languages(languages)
       new_hash = data[:ruby] = {style: "oo"}
         binding.pry
       end
+      new_hash.merge(data)
     end
 end
