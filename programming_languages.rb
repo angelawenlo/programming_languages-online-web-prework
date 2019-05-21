@@ -8,4 +8,3 @@ def reformat_languages(languages)
     elsif programming == :functional
     end
   end
-end
