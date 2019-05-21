@@ -6,6 +6,7 @@ def reformat_languages(languages)
     data.each do |language, type_info|
       if languages.keys.include?(:oo)
         new_hash[:style] = [:oo]
+        new_hash
     binding.pry
       end
     end
