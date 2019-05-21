@@ -7,6 +7,7 @@ def reformat_languages(languages)
     if languages.keys == :oo || :functional
       new_hash << data
     binding.pry
+  end
     end
   end
 end
