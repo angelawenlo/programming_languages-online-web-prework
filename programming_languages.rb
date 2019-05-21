@@ -6,4 +6,5 @@ def reformat_languages(languages)
     if programming == :oo
     elsif programming == :functional
     end
+  end
 end
