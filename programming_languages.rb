@@ -4,10 +4,8 @@ def reformat_languages(languages)
   new_hash = {languages.merge}
   languages.each do |programming, data|
     data.each do |language, type_info|
-    if programming.keys == :oo || languages.keys.include?(:functional)
 
     binding.pry
-      end
     end
   end
 end
