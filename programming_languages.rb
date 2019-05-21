@@ -10,7 +10,6 @@ def reformat_languages(languages)
       elsif programming == :oo
         new_hash = data
         new_hash[:style] = []
-
     binding.pry
         end
       end
