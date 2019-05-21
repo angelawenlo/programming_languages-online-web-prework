@@ -6,7 +6,6 @@ def reformat_languages(languages)
     if programming == :oo
       new_hash = data[:ruby] => :style
         binding.pry
-        end
       end
     end
 end
