@@ -8,7 +8,7 @@ def reformat_languages(languages)
       if programming == :functional
         new_hash[:style] = [:functional]
       elsif programming == :oo
-        new_hash data = [:functional]
+        new_hash[:style]= [:oo]
 
         new_hash
     binding.pry
