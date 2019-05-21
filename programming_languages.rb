@@ -6,7 +6,7 @@ def reformat_languages(languages)
   languages.values.map do |programming, data|
     data.map do |language, type_info|
       if programming == :functional
-        new_hash[:style] = [:functional]
+        new_hash[:ruby] = {style: [:oo]}
       elsif programming == :oo
         new_hash[:style]= [:oo]
         new_hash
