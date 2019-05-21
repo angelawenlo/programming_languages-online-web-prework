@@ -5,8 +5,9 @@ def reformat_languages(languages)
   languages.each do |programming, data|
     if programming == :oo
       new_hash = data[:ruby] = {style: "oo"}
-        binding.pry
+
       end
       new_hash.merge(data)
+        binding.pry
     end
 end
