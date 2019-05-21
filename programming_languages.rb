@@ -6,9 +6,9 @@ def reformat_languages(languages)
   languages.each do |programming, data|
     #programming = functional and oo
     data.each do |language, info|
-      new_hash[language] = {}
+      return new_hash[language] = {}
 
-  
+
 
   end
 end
