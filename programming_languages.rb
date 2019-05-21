@@ -8,7 +8,6 @@ def reformat_languages(languages)
         new_hash = data
         new_hash[:ruby] = {style: "functional"}
       elsif programming == :oo
-      
     binding.pry
         end
       end
