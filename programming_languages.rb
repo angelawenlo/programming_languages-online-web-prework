@@ -3,11 +3,11 @@ require 'pry'
 def reformat_languages(languages)
   # your code her
   new_hash = {}
-  languages.each do |programming, data|
+  languages.map { |e|  } do |programming, data|
     new_hash = data
-    data.each do |language, info|
+    data.map do |language, info|
     if programming == :oo
-    
+
 
     elsif programming == :functional
       binding.pry
