@@ -4,7 +4,9 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |programming, data|
     data.each do |language, type_info|
-      if programming == :functional && programming == :oo
+      if programming == :functional
+
+      elsif
 
 
       elsif
