@@ -10,7 +10,7 @@ def reformat_languages(languages)
         new_hash[:javascript] = {
           :type => info[:type]
         }
-      new_hash[language] = {:type => info[:type], :style => [programming]}
+
   end
 end
 new_hash
